@@ -10,7 +10,6 @@
     "@nx/js": "22.7.2",
     "@nx/vite": "22.7.2",
     "@nx/vitest": "22.7.2",
-    "@nx/web": "22.7.2",
     "@swc-node/register": "1.11.1",
     "@swc/core": "1.15.8",
     "@swc/helpers": "0.5.18",
