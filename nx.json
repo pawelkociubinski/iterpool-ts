@@ -41,7 +41,11 @@
   ],
   "release": {
     "projects": ["iterpool-ts"],
-    "version": { "preVersionCommand": "npx nx run-many -t build" }
+    "version": { "preVersionCommand": "npx nx run-many -t build" },
+    "git": {
+      "commit": true,
+      "tag": true
+    }
   },
   "targetDefaults": { "test": { "dependsOn": ["^build"] } },
   "nxCloudId": "6a0ac4534f53ac06e37d702a",
