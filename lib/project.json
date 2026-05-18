@@ -1,11 +1,11 @@
 {
   "name": "iterpool-ts",
   "$schema": "../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "libs/my-lib/src",
+  "sourceRoot": "lib/src",
   "projectType": "library",
   "release": {
     "version": {
-      "manifestRootsToUpdate": ["dist/{projectRoot}"],
+      "manifestRootsToUpdate": ["{projectRoot}"],
       "currentVersionResolver": "git-tag",
       "fallbackCurrentVersionResolver": "disk"
     }
@@ -14,7 +14,7 @@
   "targets": {
     "nx-release-publish": {
       "options": {
-        "packageRoot": "dist/{projectRoot}"
+        "packageRoot": "{projectRoot}"
       }
     }
   }
